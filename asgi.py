@@ -1,5 +1,5 @@
 """
-ASGI config for gypso_wallet project.
+ASGI config for g_wallet project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'gypso_wallet.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'g_wallet.settings')
 
 application = get_asgi_application()

@@ -2,9 +2,9 @@ version: "3.9"
 services:
     server:
         build: .
-        container_name: debug_django_test1
+        container_name: wallet_backend
         ports:
             - "8000:8000"
         volumes:
-            - ./:/gypso_app
+            - ./:/wallet_app_data
         command: python manage.py runserver 0.0.0.0:8000

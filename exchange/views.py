@@ -103,13 +103,15 @@ class ProfileView(View):
 
 coins = ["bitcoin", "ethereum", "ripple", "litecoin", "binancecoin", "dogecoin", "solana"]
 vs_currencies = ["usd", "eur", "rub"]
-colors = {"bitcoin": "#8e5ea2",
-          "ethereum": "#3e95cd",
-          "ripple": "#3cba9f",
-          "litecoin": "#e8c3b9",
-          "binancecoin": "#c45850",
-          "dogecoin": "#c4bd97",
-          "solana": "#1d45ab"}
+colors = {
+    "bitcoin": "#8e5ea2",
+    "ethereum": "#3e95cd",
+    "ripple": "#3cba9f",
+    "litecoin": "#e8c3b9",
+    "binancecoin": "#c45850",
+    "dogecoin": "#c4bd97",
+    "solana": "#1d45ab"
+}
 
 
 @method_decorator(login_required, name='dispatch')
