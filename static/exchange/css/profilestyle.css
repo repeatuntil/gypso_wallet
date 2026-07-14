@@ -46,7 +46,6 @@ body {
     padding-top: 7px;
     padding-inline: 10px;
     background-color: #07BEB8;
-    /*border-radius: 15px 0 0 15px;*/
 }
 .header_separator {
     height: 40px;
@@ -59,7 +58,6 @@ body {
     width: 40px;
     float: left;
     margin-left: 5px;
-
     background-image: url("../images/user_avatar.png");
     background-position: center;
     background-size: cover;
@@ -83,7 +81,6 @@ body {
 }
 
 .header_auth{
-    /*border: solid;*/
     display: flex;
     justify-content: center;
     width: 25%;
@@ -145,7 +142,6 @@ body {
     border: 2px solid black;
 }
 
-
 .central_separator {
     height: 2px;
     width: 100%;
@@ -153,9 +149,7 @@ body {
     background-color: #07BEB8;
 }
 
-.main_body {
-    height: 100%;
-}
+.main_body { height: 100% }
 
 .main_container {
     height: 100%;
@@ -165,7 +159,6 @@ body {
 
 .profile_list {
     height: 100%;
-    float: top;
     margin: 30px 30px 0 30px;
     position: relative;
 }
@@ -186,15 +179,12 @@ body {
     background-size: cover;
 }
 
-
 .download_avatar {
     height: auto;
     width: 250px;
-
     margin-top: 4px;
     margin-bottom: 4px;
     padding: 5px;
-
     position: relative;
     display: inline-block;
     text-align: center;
@@ -206,7 +196,6 @@ body {
     width: 100%;
     padding: 10px 20px;
     margin: 0;
-
     position: relative;
     display: inline-block;
     cursor: pointer;
@@ -219,40 +208,26 @@ body {
     line-height: 22px;
     box-sizing: border-box;
     border: none;
-
     transition: background-color 0.2s;
 }
 .download_avatar input[type=file] {
     width: 0;
     height: 0;
-
     position: absolute;
     z-index: -1;
     opacity: 0;
     display: block;
 }
 
-.download_avatar input[type=file]:focus + span {
-    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
-}
-
-.download_avatar:hover span {
-    background-color: #3dccc7;
-}
-
-.download_avatar:active span {
-    background-color: #057672;
-}
-
-.download_avatar input[type=file]:disabled + span {
-    background-color: #eee;
-}
+.download_avatar input[type=file]:focus + span { box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25) }
+.download_avatar:hover span { background-color: #3dccc7 }
+.download_avatar:active span { background-color: #057672 }
+.download_avatar input[type=file]:disabled + span { background-color: #eee }
 
 .profile_about {
     height: 55%;
     width: 246px;
     padding: 7px;
-
     position: relative;
     text-align: center;
     background-color: #68D8D6;
@@ -261,15 +236,12 @@ body {
 .profile_about textarea {
     width: 100%;
     height: 100%;
-
     resize: none;
     padding: 15px;
     box-sizing: border-box;
-
     border-radius: 15px;
     border: 0;
     box-shadow: 4px 4px 10px rgba(0,0,0,0.06);
-
 }
 
 .submit_about {
@@ -277,10 +249,8 @@ body {
     width: 250px;
     margin-top: 4px;
     padding: 5px;
-
     position: relative;
     display: inline-block;
-
     text-align: center;
     background-color: #68D8D6;
     border-radius: 0 0 15px 15px;
@@ -290,10 +260,8 @@ body {
     height: 40px;
     width: 100%;
     line-height: 22px;
-
     margin: 0;
     padding: 10px 20px;
-
     position: relative;
     display: inline-block;
     cursor: pointer;
@@ -317,27 +285,14 @@ body {
     height: 0;
 }
 
-.submit_about input[type=submit]:focus + span {
-    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
-}
-
-.submit_about:hover span {
-    background-color: #3dccc7;
-}
-
-.submit_about:active span {
-    background-color: #057672;
-}
-
-.submit_about input[type=submit]:disabled + span {
-    background-color: #eee;
-}
-
+.submit_about input[type=submit]:focus + span { box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25)}
+.submit_about:hover span { background-color: #3dccc7 }
+.submit_about:active span { background-color: #057672 }
+.submit_about input[type=submit]:disabled + span { background-color: #eee }
 
 .main_separator {
     height: 850px;
     width: 2px;
-
     float: right;
     margin-top: 20px;
     background-color: #68D8D6;
@@ -349,7 +304,6 @@ body {
     min-height: 750px;
     max-height: 1200px;
     max-width: 1900px;
-
     text-align: center;
     margin-top: 50px;
     margin-inline: 50px;
@@ -364,9 +318,7 @@ body {
     width: 100%;
     height: 100%;
     min-height: 750px;
-    /*max-height: 1200px;*/
     max-width: 1900px;
-
     background-color: #68D8D6;
     border-radius: 15px;
     position: relative;
@@ -378,7 +330,6 @@ body {
 
 .total_price {
     margin-top: 20px;
-    /*border: 1px solid black;*/
     display: flex;
     justify-content: center;
     font-size: 20px;
@@ -391,21 +342,17 @@ body {
 
 ul {
     position: absolute;
-    list-style-type: none;
     height: 90%;
     width: 90%;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    /*border: 1px solid black;*/
-
     list-style: none;
     padding: 0;
     text-shadow: 0 1px 0 rgba(255,255,255,.5);
 }
 
 ul li {
-    /*border: 1px solid black;*/
     display: block;
     padding: .6em .6em .6em 1.2em;
     margin: .5em 0 .5em 0;

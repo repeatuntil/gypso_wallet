@@ -10,13 +10,6 @@ body {
     font-family: "Montserrat";
 }
 
-/*
-html {
-    height: 100%;
-}
-*/
-
-
 .header_container {
     height: 50px;
     background-color: white;
@@ -54,7 +47,6 @@ html {
     padding-top: 7px;
     padding-inline: 10px;
     background-color: #07BEB8;
-    /*border-radius: 15px 0 0 15px;*/
 }
 .header_separator {
     height: 40px;
@@ -90,7 +82,6 @@ html {
 }
 
 .header_auth{
-    /*border: solid;*/
     display: flex;
     justify-content: center;
     width: 25%;
@@ -152,14 +143,12 @@ html {
     border: 2px solid black;
 }
 
-
 .central_separator {
     height: 2px;
     width: 100%;
     margin: 0;
     background-color: #07BEB8;
 }
-
 
 .main_container {
     height: 100%;
@@ -174,7 +163,6 @@ html {
     min-height: 688px;
     float: top;
     margin: 50px 60px 0 50px;
-    /*position: absolute;*/
     text-align: center;
 
 }
@@ -200,25 +188,21 @@ html {
     min-height: 688px;
     width: 100%;
     padding: 7px;
-
     position: relative;
     text-align: center;
     background-color: #68D8D6;
     border-radius: 15px;
 }
 
-
 .main_separator {
     height: 10pv;
     width: 2px;
-
     float: right;
     margin-top: 20px;
     background-color: #68D8D6;
 }
 
 .graph_list {
-    /*position: absolute;*/
     width: 60%;
     height: 100%;
     text-align: center;
@@ -244,7 +228,6 @@ html {
     width: 100%;
     height: 100%;
     min-height: 700px;
-   /* max-height: 1000px;*/
     max-width: 1900px;
     padding: 7px;
     background-color: #68D8D6;
@@ -255,9 +238,8 @@ html {
     margin: 10px;
     padding: 10px 15px;
     border: none;
-    background-color: #white;
+    background-color: #FFFFFF;
     border-radius: 5px 5px 5px 5px;
-    border: 2px solid #999ea3;
     cursor: pointer;
 }
 
@@ -266,11 +248,9 @@ html {
 }
 
 .box {
-    /*width: 40px;*/
     height: 30px;
     margin-left: 10px;
     padding: 0px 5px 0px 5px;
     font-size: 18px;
     border: 2px solid #ccc;
-    /*appearance: none;*/
 }

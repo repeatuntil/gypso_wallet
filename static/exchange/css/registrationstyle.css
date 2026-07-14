@@ -32,7 +32,6 @@ body {
     border-radius: 15px 0 0 15px;
 }
 
-
 .header_logo {
     height: 40px;
     width: 40px;
@@ -58,7 +57,6 @@ body {
     padding-top: 7px;
     padding-inline: 10px;
     background-color: #07BEB8;
-    /*border-radius: 15px 0 0 15px;*/
 }
 .header_separator {
     height: 40px;
@@ -71,7 +69,6 @@ body {
     width: 40px;
     float: left;
     margin-left: 5px;
-
     background-image: url("../images/user_avatar.png");
     background-position: center;
     background-size: cover;
@@ -94,7 +91,6 @@ body {
 }
 
 .header_auth{
-    /*border: solid;*/
     display: flex;
     justify-content: center;
     width: 25%;
@@ -156,7 +152,6 @@ body {
     border: 2px solid black;
 }
 
-
 .central_separator {
     height: 2px;
     width: 100%;
@@ -167,16 +162,12 @@ body {
 .main_container {
     height: 100%;
     width: 100%;
-
     position: fixed;
-    top: 100;
     right: 4.5%;
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: center;
-
-
 }
 
 .registration_container {
@@ -191,12 +182,10 @@ body {
     padding-bottom: 50px;
 }
 
-
 .registration_list {
     height: 100%;
     width: 90%;
     position: relative;
-    float: top;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -209,12 +198,9 @@ body {
     margin: 0px 10px 0px 10px;
     padding: 20px 10px 20px 0;
     display: flex;
-
     align-items: center;
     justify-content: center;
-
     text-align: center;
-
     font-size: 25px;
     background-color: #68D8D625;
     border: 1px solid black;
@@ -229,12 +215,9 @@ input::placeholder {
     margin: 30px 10px 0 10px;
     padding: 20px 10px 20px 0;
     display: flex;
-
     align-items: center;
     justify-content: center;
-
     text-align: center;
-
     font-size: 25px;
     background-color: #68D8D625;
     border: 1px solid black;
@@ -246,18 +229,13 @@ input::placeholder {
     margin: 15px 10px 0 10px;
     padding: 20px 10px 20px 0;
     display: flex;
-
     align-items: center;
     justify-content: center;
-
-
     text-align: center;
-
     font-size: 25px;
     background-color: #68D8D625;
     border: 1px solid black;
 }
-
 
 .submit_registration {
     margin: 15px 10px 0 10px;
@@ -271,7 +249,6 @@ input::placeholder {
     background-color: #C4FFF9;
     border: 1px solid black;
     border-radius: 40px;
-
     display: flex;
     align-content: center;
     align-items: center;
@@ -283,9 +260,7 @@ input::placeholder {
     height: 100%;
     width: 100%;
     line-height: 22px;
-
     padding: 10px 20px;
-
     position: relative;
     display: inline-block;
     cursor: pointer;
@@ -309,18 +284,7 @@ input::placeholder {
     height: 0;
 }
 
-.submit_registration input[type=submit]:focus + span {
-    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
-}
-
-.submit_registration:hover span {
-    background-color: #9ceaef;
-}
-
-.submit_registration:active span {
-    background-color: #057672;
-}
-
-.submit_registration input[type=submit]:disabled + span {
-    background-color: #eee;
-}
+.submit_registration input[type=submit]:focus + span { box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25) }
+.submit_registration:hover span { background-color: #9ceaef }
+.submit_registration:active span { background-color: #057672 }
+.submit_registration input[type=submit]:disabled + span { background-color: #eee }
